@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="Final.Shared.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Pizza</title>
+    <link href="../App_Themes/css/styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav>
+            <ul class="nav">
+                <li>
+                    <asp:BulletedList ID="topMenu" DisplayMode="HyperLink" class="myNav" CausesValidation="false" runat="server">
+                        <asp:ListItem class="myNavTitle" Text="Home" Value="~/Default.aspx"></asp:ListItem>
+                        <asp:ListItem class="myNavTitle" Text="Register" Value="~/Register.aspx"></asp:ListItem>
+                        <asp:ListItem class="myNavTitle" Text="Toppings" Value="~/AddToppings.aspx"></asp:ListItem>
+                    </asp:BulletedList>
+                </li>
+            </ul>
+        </nav>
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>

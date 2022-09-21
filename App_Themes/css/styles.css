@@ -1,0 +1,413 @@
+body {
+    font-family: Quicksand;
+    background-color: antiquewhite;
+    color: #696969;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+.emphsis {
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    margin-left: 80px;
+}
+
+
+
+.distinct {
+    color: blue;
+    font: bold;
+}
+
+.button {
+    border: 2px solid #f00;
+    border-style: ridge;
+    width: 7em;
+    background-color: lightblue;
+}
+
+    .button:hover {
+        border: 2px solid #f00;
+        background: #eef;
+    }
+
+
+
+
+.lbl1 {
+    position: relative;
+    left: 43px;
+}
+
+.lbl2 {
+    position: relative;
+    left: 50px;
+}
+
+
+
+
+
+.table {
+    font-size: 12px;
+    margin: 45px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+    .table th {
+        font-size: 13px;
+        font-weight: normal;
+        padding: 8px;
+        background: #b9c9fe;
+        border-top: 4px solid #aabcfe;
+        border-bottom: 1px solid #fff;
+        color: #039;
+    }
+
+    .table td {
+        padding: 8px;
+        background: #e8edff;
+        border-bottom: 1px solid #fff;
+        color: #669;
+        border-top: 1px solid transparent;
+    }
+
+    .table tr:hover td {
+        background: #d0dafd;
+        color: #339;
+    }
+
+
+
+#tblRow {
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    color: red !important;
+}
+
+.grid-3-colum {
+    display: grid;
+    grid-template-columns: 15% 25% auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 5px
+}
+
+#rdbStudyType {
+    display: inline;
+    margin-left: 100px;
+}
+
+    #rdbStudyType tbody {
+        display: inline;
+    }
+
+    #rdbStudyType tr {
+        display: inline;
+    }
+
+
+
+input[type="submit" i] {
+    margin-top: 10px;
+}
+
+#pnlinlineBox {
+    margin-bottom: 15px;
+}
+
+#inlineBox {
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 10% 25% auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 5px
+}
+
+.input3 {
+    border: 2px solid #006;
+    border-style: groove;
+    background: #ff6;
+    width: 300px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.emphsisComplete {
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    
+}
+
+#mySumMsg {
+    margin-left: 80px;
+}
+
+.myNavTitle a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+    .myNavTitle a:hover {
+        color: gray;
+    }
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+
+ul.nav {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 10px;
+    margin-bottom: 0;
+    height: 35px;
+}
+
+.myNavTitle {
+    padding-left: 30px;
+}
+
+.myBgImage {
+    text-align: center;
+    background-image: url(/App_Themes/image/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin-top: 0;
+}
+
+.myText {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI';
+    font-size: 28px;
+    vertical-align: central;
+}
+
+#myH1 {
+    color: antiquewhite;
+    font-family: Quicksand;
+}
+
+ul.highlight {
+    padding-left: 0;
+}
+
+.highlightMenu img {
+    height: 230px;
+    width: 330px;
+    border-radius: 10px;
+}
+
+li.highlightMenu {
+    list-style: none;
+    text-align: center;
+}
+
+.highlight {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.myButton {
+    background-color: #fdedc1;
+    padding: 10px;
+}
+
+#linkToRegis {
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+    #linkToRegis:hover {
+        background-color: black;
+        color: antiquewhite;
+    }
+
+.grid-3-colum {
+    display: grid;
+    grid-template-columns: 22% 25% auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+    margin-left: 80px;
+}
+
+h2 {
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+
+
+.input {
+    border: 1px solid gray;
+    width: 392px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -80px;
+    padding: 2px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+    .input:hover {
+        border: 1px solid gray;
+        background: #fff3bd;
+    }
+
+.input2 {
+    border: 1px solid gray;
+    width: 400px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -80px;
+    padding: 2px;
+    border-radius: 5px;
+    font-family: Quicksand;
+    padding-left: 10px;
+}
+
+    .input2:hover {
+        border: 1px solid gray;
+        background: #fff3bd;
+    }
+
+.button {
+    border: 1px solid gray;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+
+    .button:hover {
+        background-color: #684530;
+        color: white;
+        border: 1px solid #684530;
+        cursor: pointer;
+    }
+
+input[type="submit" i]:disabled {
+    background: #dedede;
+    color: #b5b3b3;
+    cursor: not-allowed;
+    border: 1px solid #dedede;
+}
+
+.mytable {
+    font-size: 12px;
+    margin: 45px 45px 45px 80px;
+    width: 620px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+    .mytable th {
+        font-size: 13px;
+        padding: 8px;
+        background: #745d41;
+        border-top: 4px solid #745d41;
+        border-bottom: 1px solid #fff;
+        color: antiquewhite;
+        font-weight: bold;
+    }
+
+    .mytable td {
+        padding: 8px;
+        background: #fbdd8e;
+        border-bottom: 1px solid #fff;
+        color: #669;
+        border-top: 1px solid transparent;
+    }
+
+    .mytable tr:hover td {
+        background: #745d41;
+        color: antiquewhite;
+    }
+
+
+
+#tblRow {
+    color: red;
+    font-weight: bold;
+}
+
+a.bottomLink {
+    margin-left: 80px;
+    text-decoration: none;
+    color: #684530;
+}
+
+    a.bottomLink:hover {
+        color: gray;
+        cursor: pointer;
+    }
+
+.Toppings {
+    font-size: 24px;
+    margin-left: 80px;
+}
+
+
+.buttonIn {
+    border: 1px solid gray;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: antiquewhite;
+    margin-left: 80px;
+    width: 80px;
+}
+
+    .buttonIn:hover {
+        background-color: #684530;
+        color: white;
+        border: 1px solid #684530;
+        cursor: pointer;
+    }
+
+#myToppingsList {
+    margin-left: 75px;
+}
+
+#myP {
+    color: antiquewhite;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+#mySum{
+    margin-left: 80px;
+}
+
+.Toppings1 {
+    font-size: 24px;
+}
+
